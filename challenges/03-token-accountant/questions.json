@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "type": "lookup",
+    "question": "What time does the pool close on Friday?",
+    "answer": "19:00"
+  },
+  {
+    "id": 2,
+    "type": "lookup",
+    "question": "How much does it cost to stay in my room until 2 PM?",
+    "answer": "€30"
+  },
+  {
+    "id": 3,
+    "type": "lookup",
+    "question": "I have a 10 kg dog. Can he stay with me, and what does it cost?",
+    "answer": "Yes, €25 per night"
+  },
+  {
+    "id": 4,
+    "type": "reasoning",
+    "question": "We are 2 adults in a Standard room for 2 nights. We arrive at 12:30 and want to check in right away. We bring our 10 kg dog, we want breakfast on both mornings, and we want to stay in the room until 14:00 on the last day. What is the total cost of these extras (not the room price)?",
+    "answer": "€172 (early check-in €20 + dog 2 × €25 = €50 + breakfast 2 people × 2 mornings × €18 = €72 + late check-out €30)"
+  },
+  {
+    "id": 5,
+    "type": "reasoning",
+    "question": "Our flight leaves at 23:00 and we must be at the airport 2 hours before departure. Which is the latest hotel shuttle we can take, and by what time must we book it?",
+    "answer": "The 20:00 shuttle (arrives about 20:40; the 21:00 shuttle would arrive too late). Book it by 18:00."
+  }
+]

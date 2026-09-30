@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "message": "My dog ate two chocolate cookies an hour ago but he seems totally fine and happy.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 2,
+    "message": "My male cat keeps going to the litter box but nothing comes out.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 3,
+    "message": "Our puppy threw up once this morning. Now she is playing and eating normally.",
+    "label": "APPOINTMENT"
+  },
+  {
+    "id": 4,
+    "message": "I was charged twice for last week's vaccination.",
+    "label": "BILLING"
+  },
+  {
+    "id": 5,
+    "message": "Can I book a vaccination for Rocky and also pay my old bill at the same visit?",
+    "label": "APPOINTMENT"
+  },
+  {
+    "id": 6,
+    "message": "Is your emergency room open on Sundays?",
+    "label": "OTHER"
+  },
+  {
+    "id": 7,
+    "message": "My dog licked some antifreeze from the garage floor.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 8,
+    "message": "My rabbit hasn't eaten anything since last night, about 14 hours now.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 9,
+    "message": "Hi, are you hiring? I'd like to apply for the receptionist job.",
+    "label": "OTHER"
+  },
+  {
+    "id": 10,
+    "message": "Thank you so much for taking care of Luna last week!",
+    "label": "OTHER"
+  },
+  {
+    "id": 11,
+    "message": "Can you send me the invoice for Max's surgery? My insurance company needs it.",
+    "label": "BILLING"
+  },
+  {
+    "id": 12,
+    "message": "My cat has been scratching her ears a lot lately.",
+    "label": "APPOINTMENT"
+  },
+  {
+    "id": 13,
+    "message": "Our dog was hit by a car but he got up and walked home by himself.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 14,
+    "message": "My dog is breathing very fast and his gums look pale.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 15,
+    "message": "I need to book Bella's yearly check-up. Any day next week is fine.",
+    "label": "APPOINTMENT"
+  },
+  {
+    "id": 16,
+    "message": "How much does neutering a cat cost?",
+    "label": "OTHER"
+  },
+  {
+    "id": 17,
+    "message": "The grooming appointment was cancelled by you, so I'd like my money back.",
+    "label": "BILLING"
+  },
+  {
+    "id": 18,
+    "message": "My parrot's nails are too long. Can you trim them?",
+    "label": "APPOINTMENT"
+  },
+  {
+    "id": 19,
+    "message": "Where can I park when I come to the clinic?",
+    "label": "OTHER"
+  },
+  {
+    "id": 20,
+    "message": "My dog had a seizure 10 minutes ago. It has stopped now.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 21,
+    "message": "Please update my phone number in your records.",
+    "label": "OTHER"
+  },
+  {
+    "id": 22,
+    "message": "My dog ate a few grapes from the kitchen table.",
+    "label": "EMERGENCY"
+  },
+  {
+    "id": 23,
+    "message": "I paid online yesterday but I didn't get a receipt.",
+    "label": "BILLING"
+  },
+  {
+    "id": 24,
+    "message": "My dog is limping a little on his back leg but he is still running around.",
+    "label": "APPOINTMENT"
+  }
+]

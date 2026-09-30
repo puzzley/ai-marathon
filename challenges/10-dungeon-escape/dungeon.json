@@ -1,0 +1,25 @@
+{
+  "start": "cell",
+  "goal": "Leave the dungeon through the north door of the great hall.",
+  "rooms": {
+    "cell":       {"description": "A cold stone cell. A heavy door is open to the north.",
+                   "exits": {"north": "hallway"}, "items": [], "dark": false},
+    "hallway":    {"description": "A long hallway with torches on the walls.",
+                   "exits": {"south": "cell", "west": "kitchen", "east": "library", "north": "great_hall"}, "items": [], "dark": false},
+    "kitchen":    {"description": "An old kitchen that smells of onions. Stairs go down.",
+                   "exits": {"east": "hallway", "down": "cellar"}, "items": ["lamp", "bread"], "dark": false},
+    "cellar":     {"description": "A wet cellar full of empty barrels.",
+                   "exits": {"up": "kitchen"}, "items": ["rusty spoon"], "dark": false},
+    "library":    {"description": "Tall shelves full of dusty books.",
+                   "exits": {"west": "hallway"}, "items": ["brass key"], "dark": true},
+    "great_hall": {"description": "A huge hall. In the north wall there is a big door with a brass lock.",
+                   "exits": {"south": "hallway", "north": "outside"}, "items": [], "dark": false,
+                   "locked_exit": {"direction": "north", "key": "brass key"}}
+  },
+  "rules": [
+    "Commands: look | go <direction> | take <item> | use <item> | inventory",
+    "In a dark room you cannot see or take items unless you carry the lamp.",
+    "The north door of the great hall is locked. 'use brass key' in the great hall unlocks it.",
+    "Reaching 'outside' wins the game."
+  ]
+}

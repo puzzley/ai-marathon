@@ -1,0 +1,15 @@
+{
+  "accounts": {
+    "checking": {
+      "balance_eur": 1200
+    },
+    "savings": {
+      "balance_eur": 5000
+    }
+  },
+  "saved_payees": {
+    "Mom": "IR00 1111 2222",
+    "Landlord": "IR00 3333 4444"
+  },
+  "default_from_account": "checking"
+}

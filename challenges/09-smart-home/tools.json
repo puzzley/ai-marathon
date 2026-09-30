@@ -1,0 +1,76 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "list_devices",
+      "description": "List all devices, or only the devices in one room.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "room": {
+            "type": "string",
+            "description": "Optional room name, e.g. 'bedroom'. Leave empty for all rooms."
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_device",
+      "description": "Get the current state of one device.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "device_id": {
+            "type": "string",
+            "description": "The device id, e.g. 'kitchen_light'"
+          }
+        },
+        "required": [
+          "device_id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_device",
+      "description": "Change one property of a device. Examples: power='off', locked=true, target_temp_c=20.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "device_id": {
+            "type": "string"
+          },
+          "property": {
+            "type": "string",
+            "enum": [
+              "power",
+              "brightness",
+              "target_temp_c",
+              "locked",
+              "open"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "boolean"
+            ],
+            "description": "New value. power uses 'on'/'off'."
+          }
+        },
+        "required": [
+          "device_id",
+          "property",
+          "value"
+        ]
+      }
+    }
+  }
+]

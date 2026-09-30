@@ -1,0 +1,89 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "is_order",
+    "items",
+    "delivery",
+    "address",
+    "phone",
+    "needs_clarification"
+  ],
+  "properties": {
+    "is_order": {
+      "type": "boolean",
+      "description": "true if the customer wants to order food"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pizza",
+          "size",
+          "quantity",
+          "extras"
+        ],
+        "properties": {
+          "pizza": {
+            "type": "string",
+            "enum": [
+              "margherita",
+              "pepperoni",
+              "veggie",
+              "hawaiian"
+            ]
+          },
+          "size": {
+            "type": "string",
+            "enum": [
+              "small",
+              "medium",
+              "large"
+            ],
+            "description": "Use medium if the customer does not say a size"
+          },
+          "quantity": {
+            "type": "integer",
+            "description": "1 or more"
+          },
+          "extras": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "cheese",
+                "olives",
+                "jalapenos",
+                "mushrooms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "delivery": {
+      "type": "boolean",
+      "description": "true only if the customer asks for delivery"
+    },
+    "address": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Delivery address exactly as written, or null"
+    },
+    "phone": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Digits only: remove spaces, dashes and +. null if not given"
+    },
+    "needs_clarification": {
+      "type": "boolean",
+      "description": "true if the customer wants to order but the pizza type is unclear"
+    }
+  }
+}

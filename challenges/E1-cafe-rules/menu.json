@@ -1,0 +1,80 @@
+{
+  "cafe": "Bean There Café",
+  "note": "The allergens list is complete for each item. If an allergen is not listed, the menu has no information about it.",
+  "items": [
+    {
+      "name": "Espresso",
+      "type": "hot drink",
+      "price_eur": 2.5,
+      "vegan": true,
+      "allergens": []
+    },
+    {
+      "name": "Cappuccino",
+      "type": "hot drink",
+      "price_eur": 3.5,
+      "vegan": false,
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "name": "Oat Latte",
+      "type": "hot drink",
+      "price_eur": 4.0,
+      "vegan": true,
+      "allergens": [
+        "oats"
+      ]
+    },
+    {
+      "name": "Matcha Latte",
+      "type": "hot drink",
+      "price_eur": 4.5,
+      "vegan": false,
+      "allergens": [
+        "milk"
+      ]
+    },
+    {
+      "name": "Iced Lemon Tea",
+      "type": "cold drink",
+      "price_eur": 3.0,
+      "vegan": true,
+      "allergens": []
+    },
+    {
+      "name": "Banana Bread",
+      "type": "food",
+      "price_eur": 3.2,
+      "vegan": false,
+      "allergens": [
+        "gluten",
+        "eggs",
+        "walnuts"
+      ]
+    },
+    {
+      "name": "Almond Croissant",
+      "type": "food",
+      "price_eur": 3.8,
+      "vegan": false,
+      "allergens": [
+        "gluten",
+        "milk",
+        "eggs",
+        "almonds"
+      ]
+    },
+    {
+      "name": "Hummus Wrap",
+      "type": "food",
+      "price_eur": 6.5,
+      "vegan": true,
+      "allergens": [
+        "gluten",
+        "sesame"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capacity of the K2 Pro?",
+    "expected_status": "answered",
+    "expected": "1.7 litres"
+  },
+  {
+    "id": 2,
+    "question": "How long is the warranty on the Travel Kettle?",
+    "expected_status": "answered",
+    "expected": "1 year"
+  },
+  {
+    "id": 3,
+    "question": "Which kettle has temperature presets, and what are they?",
+    "expected_status": "answered",
+    "expected": "K2 Pro: 70, 80, 90 and 100 °C"
+  },
+  {
+    "id": 4,
+    "question": "How heavy is the Travel Kettle?",
+    "expected_status": "answered",
+    "expected": "0.6 kg"
+  },
+  {
+    "id": 5,
+    "question": "In which country is the K1 made?",
+    "expected_status": "not_in_document",
+    "expected": "The spec sheet does not say."
+  },
+  {
+    "id": 6,
+    "question": "How loud is the K2 Pro when it boils?",
+    "expected_status": "not_in_document",
+    "expected": "The spec sheet does not say."
+  },
+  {
+    "id": 7,
+    "question": "Can I take the Travel Kettle in my hand luggage on a plane?",
+    "expected_status": "not_in_document",
+    "expected": "The spec sheet does not say."
+  },
+  {
+    "id": 8,
+    "question": "How do I connect the K2 Pro to the phone app?",
+    "expected_status": "false_premise",
+    "expected": "It has no Wi-Fi and no app."
+  },
+  {
+    "id": 9,
+    "question": "Why is the K1 made of glass?",
+    "expected_status": "false_premise",
+    "expected": "The K1 is stainless steel, not glass."
+  },
+  {
+    "id": 10,
+    "question": "The Travel Kettle has 4 temperature presets. Which one is best for green tea?",
+    "expected_status": "false_premise",
+    "expected": "The Travel Kettle has no temperature control; it only boils water."
+  }
+]

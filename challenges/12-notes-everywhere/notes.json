@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Dentist",
+    "text": "Dentist appointment on Tuesday at 16:00. Bring the insurance card."
+  },
+  {
+    "id": 2,
+    "title": "Gift ideas for Sam",
+    "text": "Sam likes board games and hiking. Maybe a new water bottle or the game 'Azul'."
+  },
+  {
+    "id": 3,
+    "title": "Car service",
+    "text": "Next car service at 60,000 km. Current: 57,300 km."
+  },
+  {
+    "id": 4,
+    "title": "Books to read",
+    "text": "The Pragmatic Programmer; Clean Architecture; a sci-fi novel for the holiday."
+  },
+  {
+    "id": 5,
+    "title": "Grandma's soup",
+    "text": "Lentils, onion, turmeric, lemon at the end. Cook 40 minutes."
+  },
+  {
+    "id": 6,
+    "title": "Weekend plan",
+    "text": "Saturday: football at 10:00. Sunday: visit parents."
+  }
+]

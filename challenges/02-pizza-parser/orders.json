@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "message": "hey can i get 2 large pepperoni pls, deliver to 12 Rose Street",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "pepperoni",
+          "size": "large",
+          "quantity": 2,
+          "extras": []
+        }
+      ],
+      "delivery": true,
+      "address": "12 Rose Street",
+      "phone": null,
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 2,
+    "message": "One margherita with extra cheese. I'll pick it up. My number is 0912 345 6789",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "margherita",
+          "size": "medium",
+          "quantity": 1,
+          "extras": [
+            "cheese"
+          ]
+        }
+      ],
+      "delivery": false,
+      "address": null,
+      "phone": "09123456789",
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 3,
+    "message": "Small veggie and a large hawaiian, no wait, make the hawaiian medium. Delivery to 5 Oak Avenue, apt 3.",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "veggie",
+          "size": "small",
+          "quantity": 1,
+          "extras": []
+        },
+        {
+          "pizza": "hawaiian",
+          "size": "medium",
+          "quantity": 1,
+          "extras": []
+        }
+      ],
+      "delivery": true,
+      "address": "5 Oak Avenue, apt 3",
+      "phone": null,
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 4,
+    "message": "3 margheritas, all small, one of them with olives",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "margherita",
+          "size": "small",
+          "quantity": 2,
+          "extras": []
+        },
+        {
+          "pizza": "margherita",
+          "size": "small",
+          "quantity": 1,
+          "extras": [
+            "olives"
+          ]
+        }
+      ],
+      "delivery": false,
+      "address": null,
+      "phone": null,
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 5,
+    "message": "Can I get a large pizza with ham and pineapple?",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "hawaiian",
+          "size": "large",
+          "quantity": 1,
+          "extras": []
+        }
+      ],
+      "delivery": false,
+      "address": null,
+      "phone": null,
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 6,
+    "message": "I want a pizza.",
+    "expected": {
+      "is_order": true,
+      "items": [],
+      "delivery": false,
+      "address": null,
+      "phone": null,
+      "needs_clarification": true
+    }
+  },
+  {
+    "id": 7,
+    "message": "Two pepperoni, one medium and one large, extra jalapeños on both. Send to 88 King Road, call me on +98 912 000 1111",
+    "expected": {
+      "is_order": true,
+      "items": [
+        {
+          "pizza": "pepperoni",
+          "size": "medium",
+          "quantity": 1,
+          "extras": [
+            "jalapenos"
+          ]
+        },
+        {
+          "pizza": "pepperoni",
+          "size": "large",
+          "quantity": 1,
+          "extras": [
+            "jalapenos"
+          ]
+        }
+      ],
+      "delivery": true,
+      "address": "88 King Road",
+      "phone": "989120001111",
+      "needs_clarification": false
+    }
+  },
+  {
+    "id": 8,
+    "message": "Hi! Just a question: are you open on Friday?",
+    "expected": {
+      "is_order": false,
+      "items": [],
+      "delivery": false,
+      "address": null,
+      "phone": null,
+      "needs_clarification": false
+    }
+  }
+]

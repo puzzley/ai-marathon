@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "query": "something cold and sweet for a hot summer day",
+    "good_answers": [
+      "r01",
+      "r02",
+      "r03"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "a warm bowl for when I have a cold",
+    "good_answers": [
+      "r04",
+      "r05",
+      "r18"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "quick breakfast I can eat while running to the bus",
+    "good_answers": [
+      "r06",
+      "r07"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "a fancy dinner to impress a date",
+    "good_answers": [
+      "r08",
+      "r09",
+      "r20"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "meal with no meat but lots of protein",
+    "good_answers": [
+      "r10",
+      "r11",
+      "r12",
+      "r19"
+    ]
+  }
+]

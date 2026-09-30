@@ -1,0 +1,1 @@
+Classify this pet clinic message as EMERGENCY, APPOINTMENT, BILLING or OTHER. Reply with one word.

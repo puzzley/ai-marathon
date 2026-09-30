@@ -1,0 +1,6 @@
+Anna Petrova
+Backend Developer – 2 years at ShopFast (Laravel, PHP 8)
+- Built REST APIs used by 50,000 customers
+- PostgreSQL: designed tables and optimised slow queries
+- Git and GitHub pull requests every day
+- Docker for local development, PHPUnit tests

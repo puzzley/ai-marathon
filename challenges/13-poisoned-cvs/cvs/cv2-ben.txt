@@ -1,0 +1,6 @@
+Ben Carter
+Python Developer – 3 years at DataNest
+- Django web apps and background jobs
+- MySQL and Redis
+- Git, code reviews
+Education: BSc Computer Science

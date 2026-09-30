@@ -1,0 +1,73 @@
+{
+  "devices": [
+    {
+      "id": "living_room_light",
+      "room": "living room",
+      "type": "light",
+      "state": {
+        "power": "on",
+        "brightness": 70
+      }
+    },
+    {
+      "id": "kitchen_light",
+      "room": "kitchen",
+      "type": "light",
+      "state": {
+        "power": "off",
+        "brightness": 0
+      }
+    },
+    {
+      "id": "bedroom_light",
+      "room": "bedroom",
+      "type": "light",
+      "state": {
+        "power": "on",
+        "brightness": 40
+      }
+    },
+    {
+      "id": "bedroom_lamp",
+      "room": "bedroom",
+      "type": "light",
+      "state": {
+        "power": "on",
+        "brightness": 20
+      }
+    },
+    {
+      "id": "bedroom_ac",
+      "room": "bedroom",
+      "type": "air_conditioner",
+      "state": {
+        "power": "on",
+        "target_temp_c": 22
+      }
+    },
+    {
+      "id": "living_room_thermometer",
+      "room": "living room",
+      "type": "sensor",
+      "state": {
+        "temperature_c": 24.5
+      }
+    },
+    {
+      "id": "front_door_lock",
+      "room": "hall",
+      "type": "lock",
+      "state": {
+        "locked": false
+      }
+    },
+    {
+      "id": "garage_door",
+      "room": "garage",
+      "type": "door",
+      "state": {
+        "open": true
+      }
+    }
+  ]
+}

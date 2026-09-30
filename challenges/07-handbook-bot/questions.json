@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Can I bring my dog to the office on Wednesday?",
+    "expected": "No. Dogs are allowed on Fridays only (3rd floor).",
+    "section": "11. Office pets"
+  },
+  {
+    "id": 2,
+    "question": "How much money can I spend on learning each year?",
+    "expected": "€1,000 per year, with manager approval before paying.",
+    "section": "9. Learning budget"
+  },
+  {
+    "id": 3,
+    "question": "I was sick for 4 days. Do I need anything from a doctor?",
+    "expected": "Yes, a doctor's note to HR (needed after more than 3 days in a row).",
+    "section": "4. Sick leave"
+  },
+  {
+    "id": 4,
+    "question": "When will my food be thrown away from the fridge?",
+    "expected": "Every Friday at 17:00.",
+    "section": "12. Kitchen"
+  },
+  {
+    "id": 5,
+    "question": "If I work extra hours, will I get paid more?",
+    "expected": "Yes, approved overtime is paid at 1.5x. More than 4 hours in a week needs director approval.",
+    "section": "17. Overtime"
+  },
+  {
+    "id": 6,
+    "question": "My laptop was stolen from my car. What should I do?",
+    "expected": "Report it to the IT helpdesk within 24 hours.",
+    "section": "6. Equipment"
+  },
+  {
+    "id": 7,
+    "question": "Does the company give stock options?",
+    "expected": "NOT IN HANDBOOK: the bot must say it cannot find this.",
+    "section": null
+  },
+  {
+    "id": 8,
+    "question": "What is the dress code?",
+    "expected": "NOT IN HANDBOOK: the bot must say it cannot find this.",
+    "section": null
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "day": 1,
+    "entry": "Got the job offer today!!! I can't stop smiling. Called Mom and we both cried happy tears.",
+    "mood": "happy"
+  },
+  {
+    "day": 2,
+    "entry": "My flight got cancelled for the third time and the airline won't answer the phone. This is ridiculous.",
+    "mood": "angry"
+  },
+  {
+    "day": 3,
+    "entry": "Big presentation tomorrow. I keep checking my slides and my heart is racing. What if I forget everything?",
+    "mood": "anxious"
+  },
+  {
+    "day": 4,
+    "entry": "Quiet Sunday. Read a book in the park, drank tea, nothing special. It was nice.",
+    "mood": "calm"
+  },
+  {
+    "day": 5,
+    "entry": "Our old dog Max passed away this morning. The house feels so empty.",
+    "mood": "sad"
+  }
+]

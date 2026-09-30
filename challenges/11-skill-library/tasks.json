@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "task": "Write release notes for these commits:\nfeat: add dark mode toggle to settings page\nfix: crash when uploading files larger than 10MB\nfeat(api): new endpoint to export tickets as CSV\nchore: bump framework to 12.3\nfix: wrong timezone in email notifications\nrefactor: extract PaymentService from OrderController\nfeat: customers can reset their password by SMS\nfix: typo in welcome email\ndocs: update README install steps\ntest: add tests for CSV export\nperf: ticket list page loads twice as fast",
+    "expected_skill": "release-notes",
+    "check": "Sections New (3), Fixed (3), Improved (1). No chore/refactor/docs/test items. No 'feat:' or 'fix:' prefixes."
+  },
+  {
+    "id": 2,
+    "task": "A customer wrote: 'app crashed when i clicked export after selecting like 2000 tasks. on android. happened 3 times today. fix it pls'. Turn this into something the developers can use.",
+    "expected_skill": "bug-report",
+    "check": "Title starts with [Android]. Has severity, steps, expected, actual, frequency (3 times today). App version and Android version are listed as open questions, not invented."
+  },
+  {
+    "id": 3,
+    "task": "Please check these queries before I merge:\n1) DELETE FROM tasks;\n2) query = \"SELECT * FROM users WHERE email = '\" + email + \"'\"\n3) SELECT id, title FROM tasks WHERE project_id = ? LIMIT 50",
+    "expected_skill": "sql-review",
+    "check": "Query 1: Critical (no WHERE). Query 2: Critical (injection) + Low (SELECT *). Query 3: no problems. Verdict: fix before merge."
+  },
+  {
+    "id": 4,
+    "task": "Notes from yesterday: 14:02 deploy v3.4 went out. 14:05 users report login errors. 14:20 we saw the new config had the wrong auth server URL. 14:31 rolled back to v3.3, logins OK. About 40% of users could not log in. Omid found the problem fast in the logs. Next time we need a config check in CI before deploy.",
+    "expected_skill": "incident-summary",
+    "check": "Impact ~40% of users could not log in for about 26 minutes (14:05-14:31). Root cause: wrong auth server URL in config. Blameless: no blame on a person. Action item: config check in CI (owner role, not a name)."
+  },
+  {
+    "id": 5,
+    "task": "What does HTTP status 404 mean?",
+    "expected_skill": null,
+    "check": "Short answer ('Not Found'). No skill loaded."
+  }
+]

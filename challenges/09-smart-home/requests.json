@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "request": "Is the kitchen light on?",
+    "expected": "Reads kitchen_light. Answer: no, it is off. No changes."
+  },
+  {
+    "id": 2,
+    "request": "What's the temperature in the living room?",
+    "expected": "Reads living_room_thermometer. Answer: 24.5 °C."
+  },
+  {
+    "id": 3,
+    "request": "Turn off all the lights in the bedroom.",
+    "expected": "Finds BOTH bedroom_light and bedroom_lamp and turns both off. The AC stays on."
+  },
+  {
+    "id": 4,
+    "request": "Lock the front door.",
+    "expected": "Sets front_door_lock locked = true."
+  },
+  {
+    "id": 5,
+    "request": "Tell me a joke.",
+    "expected": "No tool call at all. Just a joke."
+  },
+  {
+    "id": 6,
+    "request": "Set the bedroom AC to 20 degrees and tell me if the garage door is open.",
+    "expected": "Sets bedroom_ac target_temp_c = 20, reads garage_door, answers: yes, it is open."
+  }
+]

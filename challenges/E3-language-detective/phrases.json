@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "text": "Where is the nearest train station?",
+    "language": "en"
+  },
+  {
+    "id": 2,
+    "text": "Je voudrais un café, s'il vous plaît.",
+    "language": "fr"
+  },
+  {
+    "id": 3,
+    "text": "Ich habe meinen Schlüssel verloren.",
+    "language": "de"
+  },
+  {
+    "id": 4,
+    "text": "¿Cuánto cuesta este libro?",
+    "language": "es"
+  },
+  {
+    "id": 5,
+    "text": "Oggi fa molto caldo.",
+    "language": "it"
+  },
+  {
+    "id": 6,
+    "text": "Eu gosto muito de música.",
+    "language": "pt"
+  },
+  {
+    "id": 7,
+    "text": "Ik woon in Amsterdam en ik werk in een bakkerij.",
+    "language": "nl"
+  },
+  {
+    "id": 8,
+    "text": "Dziękuję bardzo za pomoc.",
+    "language": "pl"
+  },
+  {
+    "id": 9,
+    "text": "Bugün hava çok güzel.",
+    "language": "tr"
+  },
+  {
+    "id": 10,
+    "text": "Я люблю читать книги.",
+    "language": "ru"
+  },
+  {
+    "id": 11,
+    "text": "أين أقرب مطعم؟",
+    "language": "ar"
+  },
+  {
+    "id": 12,
+    "text": "今日はとても寒いです。",
+    "language": "ja"
+  },
+  {
+    "id": 13,
+    "text": "我喜欢喝茶。",
+    "language": "zh"
+  },
+  {
+    "id": 14,
+    "text": "मुझे चाय पसंद है।",
+    "language": "hi"
+  },
+  {
+    "id": 15,
+    "text": "Καλημέρα, τι κάνεις;",
+    "language": "el"
+  },
+  {
+    "id": 16,
+    "text": "Tôi rất thích ăn phở.",
+    "language": "vi"
+  },
+  {
+    "id": 17,
+    "text": "ฉันชอบกินข้าวผัด",
+    "language": "th"
+  },
+  {
+    "id": 18,
+    "text": "Habari ya asubuhi, rafiki yangu.",
+    "language": "sw"
+  },
+  {
+    "id": 19,
+    "text": "Благодаря за помощта.",
+    "language": "bg"
+  },
+  {
+    "id": 20,
+    "text": "آپ کیسے ہیں؟",
+    "language": "ur"
+  },
+  {
+    "id": 21,
+    "text": "امروز هوا خیلی خوب است.",
+    "language": "fa"
+  },
+  {
+    "id": 22,
+    "text": "من قهوه دوست دارم.",
+    "language": "fa"
+  }
+]

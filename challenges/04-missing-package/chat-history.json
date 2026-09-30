@@ -1,0 +1,127 @@
+[
+  {
+    "date": "2026-09-02",
+    "from": "customer",
+    "text": "Hi! Do you sell coffee grinders that can do espresso?"
+  },
+  {
+    "date": "2026-09-02",
+    "from": "agent",
+    "text": "Yes, the Coffee Grinder Pro has 30 settings, including espresso."
+  },
+  {
+    "date": "2026-09-02",
+    "from": "customer",
+    "text": "Nice. Is it loud?"
+  },
+  {
+    "date": "2026-09-02",
+    "from": "agent",
+    "text": "It's about as loud as a hair dryer for a few seconds."
+  },
+  {
+    "date": "2026-09-03",
+    "from": "customer",
+    "text": "Haha ok. And does the kettle come in black?"
+  },
+  {
+    "date": "2026-09-03",
+    "from": "agent",
+    "text": "Yes, the Kettle comes in white and black."
+  },
+  {
+    "date": "2026-09-05",
+    "from": "customer",
+    "text": "Can I pay with a gift card and a credit card together?"
+  },
+  {
+    "date": "2026-09-05",
+    "from": "agent",
+    "text": "Yes, you can split the payment between one gift card and one card."
+  },
+  {
+    "date": "2026-09-06",
+    "from": "customer",
+    "text": "Thanks! By the way your website is really slow today."
+  },
+  {
+    "date": "2026-09-06",
+    "from": "agent",
+    "text": "Sorry about that, our team is looking into it."
+  },
+  {
+    "date": "2026-09-08",
+    "from": "customer",
+    "text": "Do you have any discount codes?"
+  },
+  {
+    "date": "2026-09-08",
+    "from": "agent",
+    "text": "Not right now, but you can subscribe to our newsletter for future offers."
+  },
+  {
+    "date": "2026-09-09",
+    "from": "customer",
+    "text": "Ok never mind. What's your return policy for kettles?"
+  },
+  {
+    "date": "2026-09-09",
+    "from": "agent",
+    "text": "You can return unused items within 30 days."
+  },
+  {
+    "date": "2026-09-10",
+    "from": "customer",
+    "text": "Great, I just placed my order."
+  },
+  {
+    "date": "2026-09-10",
+    "from": "agent",
+    "text": "Thank you, Mina! You will get an email when it ships."
+  },
+  {
+    "date": "2026-09-12",
+    "from": "customer",
+    "text": "Quick update: I moved last weekend! My new address is 7 Lake Road. Please send everything there from now on."
+  },
+  {
+    "date": "2026-09-12",
+    "from": "agent",
+    "text": "Thanks, I have noted your new address in your customer profile."
+  },
+  {
+    "date": "2026-09-14",
+    "from": "customer",
+    "text": "Also, can I get the kettle gift-wrapped?"
+  },
+  {
+    "date": "2026-09-14",
+    "from": "agent",
+    "text": "Sorry, gift wrapping is only possible before an order ships."
+  },
+  {
+    "date": "2026-09-15",
+    "from": "customer",
+    "text": "No problem. Do you have descaling tablets for the kettle?"
+  },
+  {
+    "date": "2026-09-15",
+    "from": "agent",
+    "text": "Yes, we sell a pack of 12 for €6."
+  },
+  {
+    "date": "2026-09-16",
+    "from": "customer",
+    "text": "Maybe next time. Is it normal that the tracking hasn't changed for days?"
+  },
+  {
+    "date": "2026-09-16",
+    "from": "agent",
+    "text": "Sometimes parcels wait at a hub. Let me know if nothing changes."
+  },
+  {
+    "date": "2026-09-17",
+    "from": "customer",
+    "text": "Ok, thanks."
+  }
+]

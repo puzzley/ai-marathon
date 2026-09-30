@@ -1,0 +1,258 @@
+2026-09-01 06:48 | A-1029  | scanned at sorting center
+2026-09-01 07:33 | SYSTEM  | route optimizer run finished
+2026-09-01 11:40 | SYSTEM  | heartbeat ok
+2026-09-01 12:53 | SYSTEM  | truck TR-03 GPS ping
+2026-09-01 16:42 | A-1071  | picked up from warehouse
+2026-09-01 21:16 | A-1029  | picked up from warehouse
+2026-09-02 16:25 | A-1071  | arrived at Hub South
+2026-09-02 18:46 | SYSTEM  | heartbeat ok
+2026-09-02 19:26 | SYSTEM  | heartbeat ok
+2026-09-02 19:57 | A-1035  | picked up from warehouse
+2026-09-02 20:03 | SYSTEM  | scanner firmware check ok
+2026-09-02 21:57 | A-1071  | scanned at sorting center
+2026-09-03 03:20 | SYSTEM  | truck TR-13 GPS ping
+2026-09-03 03:28 | SYSTEM  | route optimizer run finished
+2026-09-03 07:12 | A-1035  | out for delivery
+2026-09-03 08:24 | SYSTEM  | truck TR-04 GPS ping
+2026-09-03 09:25 | A-1013  | picked up from warehouse
+2026-09-03 10:14 | A-1097  | scanned at sorting center
+2026-09-03 10:19 | SYSTEM  | heartbeat ok
+2026-09-03 11:51 | A-1051  | scanned at sorting center
+2026-09-03 11:53 | SYSTEM  | heartbeat ok
+2026-09-03 12:33 | A-1097  | picked up from warehouse
+2026-09-03 12:40 | A-1071  | left hub
+2026-09-03 13:00 | A-1035  | delivered
+2026-09-03 14:08 | A-1035  | left hub
+2026-09-03 16:06 | A-1035  | scanned at sorting center
+2026-09-03 18:34 | SYSTEM  | heartbeat ok
+2026-09-03 19:39 | A-1035  | arrived at Hub South
+2026-09-03 20:28 | A-1051  | picked up from warehouse
+2026-09-03 21:10 | SYSTEM  | route optimizer run finished
+2026-09-03 22:56 | SYSTEM  | truck TR-28 GPS ping
+2026-09-04 06:36 | SYSTEM  | scanner firmware check ok
+2026-09-04 07:34 | SYSTEM  | heartbeat ok
+2026-09-04 10:45 | SYSTEM  | scanner firmware check ok
+2026-09-04 11:06 | A-1051  | arrived at Hub South
+2026-09-04 11:20 | A-1097  | arrived at Hub South
+2026-09-04 11:28 | SYSTEM  | truck TR-05 GPS ping
+2026-09-04 12:00 | A-1013  | scanned at sorting center
+2026-09-04 12:56 | A-1071  | out for delivery
+2026-09-04 16:50 | SYSTEM  | scanner firmware check ok
+2026-09-04 16:57 | SYSTEM  | scanner firmware check ok
+2026-09-04 18:14 | A-1071  | delivered
+2026-09-04 23:52 | SYSTEM  | truck TR-21 GPS ping
+2026-09-05 06:11 | SYSTEM  | route optimizer run finished
+2026-09-05 07:28 | A-1089  | scanned at sorting center
+2026-09-05 07:38 | A-1051  | out for delivery
+2026-09-05 07:38 | SYSTEM  | heartbeat ok
+2026-09-05 07:59 | A-1054  | picked up from warehouse
+2026-09-05 08:59 | A-1082  | arrived at Hub South
+2026-09-05 09:08 | A-1097  | out for delivery
+2026-09-05 10:46 | A-1097  | delivered
+2026-09-05 11:09 | SYSTEM  | scanner firmware check ok
+2026-09-05 12:11 | A-1013  | left hub
+2026-09-05 12:13 | A-1097  | left hub
+2026-09-05 15:09 | A-1051  | left hub
+2026-09-05 15:31 | SYSTEM  | heartbeat ok
+2026-09-05 15:56 | A-1013  | arrived at Hub South
+2026-09-05 17:32 | A-1089  | picked up from warehouse
+2026-09-05 18:34 | A-1082  | picked up from warehouse
+2026-09-05 21:05 | A-1082  | scanned at sorting center
+2026-09-05 21:58 | A-1054  | scanned at sorting center
+2026-09-06 02:48 | SYSTEM  | scanner firmware check ok
+2026-09-06 05:18 | SYSTEM  | heartbeat ok
+2026-09-06 06:24 | A-1037  | picked up from warehouse
+2026-09-06 08:04 | A-1054  | delivered
+2026-09-06 08:26 | A-1065  | picked up from warehouse
+2026-09-06 08:30 | A-1054  | left hub
+2026-09-06 09:02 | A-1013  | out for delivery
+2026-09-06 09:06 | A-1065  | scanned at sorting center
+2026-09-06 12:28 | A-1013  | delivered
+2026-09-06 14:15 | A-1065  | arrived at Hub South
+2026-09-06 15:02 | A-1054  | arrived at Hub South
+2026-09-06 15:20 | A-1054  | out for delivery
+2026-09-06 18:35 | A-1096  | picked up from warehouse
+2026-09-06 19:49 | A-1089  | arrived at Hub South
+2026-09-06 19:58 | A-1082  | left hub
+2026-09-06 20:41 | A-1051  | delivered
+2026-09-07 01:22 | SYSTEM  | route optimizer run finished
+2026-09-07 05:26 | SYSTEM  | scanner firmware check ok
+2026-09-07 07:11 | A-1076  | picked up from warehouse
+2026-09-07 09:46 | A-1096  | arrived at Hub South
+2026-09-07 11:34 | A-1037  | scanned at sorting center
+2026-09-07 12:15 | A-1096  | left hub
+2026-09-07 12:40 | SYSTEM  | heartbeat ok
+2026-09-07 12:51 | A-1089  | out for delivery
+2026-09-07 14:15 | A-1082  | out for delivery
+2026-09-07 14:26 | A-1065  | left hub
+2026-09-07 14:49 | A-1076  | scanned at sorting center
+2026-09-07 19:51 | A-1089  | delivered
+2026-09-07 20:20 | A-1096  | scanned at sorting center
+2026-09-07 20:24 | SYSTEM  | heartbeat ok
+2026-09-07 21:25 | SYSTEM  | route optimizer run finished
+2026-09-07 21:58 | A-1089  | left hub
+2026-09-07 22:07 | SYSTEM  | truck TR-25 GPS ping
+2026-09-07 23:36 | SYSTEM  | truck TR-12 GPS ping
+2026-09-08 01:33 | SYSTEM  | truck TR-04 GPS ping
+2026-09-08 08:08 | A-1065  | delivered
+2026-09-08 08:19 | A-1096  | out for delivery
+2026-09-08 08:26 | A-1076  | left hub
+2026-09-08 08:28 | SYSTEM  | heartbeat ok
+2026-09-08 08:42 | SYSTEM  | scanner firmware check ok
+2026-09-08 11:25 | A-1076  | arrived at Hub South
+2026-09-08 13:46 | SYSTEM  | scanner firmware check ok
+2026-09-08 15:33 | A-1065  | out for delivery
+2026-09-08 21:08 | A-1082  | delivered
+2026-09-08 22:14 | SYSTEM  | scanner firmware check ok
+2026-09-09 07:12 | SYSTEM  | route optimizer run finished
+2026-09-09 08:17 | SYSTEM  | scanner firmware check ok
+2026-09-09 08:39 | SYSTEM  | route optimizer run finished
+2026-09-09 08:58 | SYSTEM  | route optimizer run finished
+2026-09-09 10:25 | A-1073  | picked up from warehouse
+2026-09-09 10:28 | A-1076  | out for delivery
+2026-09-09 13:01 | SYSTEM  | heartbeat ok
+2026-09-09 14:58 | A-1096  | delivered
+2026-09-10 00:00 | SYSTEM  | route optimizer run finished
+2026-09-10 00:04 | SYSTEM  | route optimizer run finished
+2026-09-10 06:53 | A-1084  | picked up from warehouse
+2026-09-10 07:02 | A-1084  | scanned at sorting center
+2026-09-10 07:57 | A-1009  | picked up from warehouse
+2026-09-10 10:55 | A-1008  | picked up from warehouse
+2026-09-10 12:01 | A-1073  | scanned at sorting center
+2026-09-10 12:40 | A-1076  | delivered
+2026-09-10 13:38 | A-1084  | arrived at Hub South
+2026-09-10 16:22 | A-1009  | scanned at sorting center
+2026-09-10 17:48 | SYSTEM  | route optimizer run finished
+2026-09-10 19:50 | A-1009  | left hub
+2026-09-10 20:20 | A-1084  | left hub
+2026-09-10 21:57 | A-1009  | arrived at Hub South
+2026-09-10 23:08 | SYSTEM  | truck TR-08 GPS ping
+2026-09-11 02:01 | SYSTEM  | route optimizer run finished
+2026-09-11 02:17 | SYSTEM  | heartbeat ok
+2026-09-11 06:54 | A-1010  | picked up from warehouse
+2026-09-11 07:25 | SYSTEM  | route optimizer run finished
+2026-09-11 07:40 | A-1073  | left hub
+2026-09-11 08:14 | A-1042  | picked up from warehouse
+2026-09-11 09:56 | SYSTEM  | route optimizer run finished
+2026-09-11 10:31 | SYSTEM  | route optimizer run finished
+2026-09-11 11:40 | A-1008  | scanned at sorting center
+2026-09-11 11:47 | A-1008  | out for delivery
+2026-09-11 12:13 | A-1010  | scanned at sorting center
+2026-09-11 12:33 | A-1084  | out for delivery
+2026-09-11 13:46 | A-1008  | left hub
+2026-09-11 13:49 | A-1073  | arrived at Hub South
+2026-09-11 15:31 | A-1084  | delivered
+2026-09-11 15:58 | A-1008  | arrived at Hub South
+2026-09-11 18:56 | A-1008  | delivered
+2026-09-11 20:06 | A-1073  | out for delivery
+2026-09-11 21:24 | A-1010  | arrived at Hub South
+2026-09-12 03:45 | SYSTEM  | scanner firmware check ok
+2026-09-12 06:03 | A-1069  | arrived at Hub South
+2026-09-12 08:17 | A-1005  | picked up from warehouse
+2026-09-12 08:43 | A-1073  | delivered
+2026-09-12 10:15 | A-1069  | scanned at sorting center
+2026-09-12 12:47 | A-1005  | scanned at sorting center
+2026-09-12 12:58 | SYSTEM  | route optimizer run finished
+2026-09-12 13:02 | A-1042  | arrived at Hub North
+2026-09-12 14:21 | A-1010  | out for delivery
+2026-09-12 15:21 | A-1010  | delivered
+2026-09-12 15:30 | SYSTEM  | route optimizer run finished
+2026-09-12 19:04 | A-1010  | left hub
+2026-09-12 19:48 | A-1069  | picked up from warehouse
+2026-09-12 21:25 | SYSTEM  | truck TR-19 GPS ping
+2026-09-12 21:46 | SYSTEM  | scanner firmware check ok
+2026-09-12 23:33 | SYSTEM  | route optimizer run finished
+2026-09-13 01:57 | SYSTEM  | truck TR-11 GPS ping
+2026-09-13 04:57 | SYSTEM  | scanner firmware check ok
+2026-09-13 05:24 | SYSTEM  | route optimizer run finished
+2026-09-13 08:17 | A-1012  | picked up from warehouse
+2026-09-13 08:17 | A-1055  | arrived at Hub South
+2026-09-13 09:28 | A-1055  | left hub
+2026-09-13 09:40 | A-1042  | held at customs check
+2026-09-13 10:26 | A-1069  | delivered
+2026-09-13 12:08 | A-1055  | picked up from warehouse
+2026-09-13 20:32 | A-1069  | out for delivery
+2026-09-13 21:11 | A-1069  | left hub
+2026-09-13 21:22 | A-1055  | scanned at sorting center
+2026-09-14 05:25 | SYSTEM  | route optimizer run finished
+2026-09-14 07:11 | A-1012  | arrived at Hub South
+2026-09-14 07:17 | A-1088  | scanned at sorting center
+2026-09-14 14:36 | A-1088  | arrived at Hub South
+2026-09-14 14:59 | A-1055  | out for delivery
+2026-09-14 15:26 | SYSTEM  | truck TR-10 GPS ping
+2026-09-14 16:22 | SYSTEM  | route optimizer run finished
+2026-09-14 17:50 | SYSTEM  | route optimizer run finished
+2026-09-14 18:36 | SYSTEM  | truck TR-16 GPS ping
+2026-09-14 19:24 | A-1055  | delivered
+2026-09-14 20:15 | A-1012  | scanned at sorting center
+2026-09-14 20:20 | A-1088  | picked up from warehouse
+2026-09-14 20:23 | SYSTEM  | heartbeat ok
+2026-09-15 08:23 | A-1012  | out for delivery
+2026-09-15 08:29 | A-1007  | picked up from warehouse
+2026-09-15 10:05 | SYSTEM  | heartbeat ok
+2026-09-15 12:22 | SYSTEM  | scanner firmware check ok
+2026-09-15 13:47 | SYSTEM  | truck TR-09 GPS ping
+2026-09-15 15:41 | A-1088  | left hub
+2026-09-15 16:51 | SYSTEM  | truck TR-10 GPS ping
+2026-09-15 17:33 | A-1012  | left hub
+2026-09-15 19:16 | SYSTEM  | truck TR-21 GPS ping
+2026-09-15 20:04 | SYSTEM  | heartbeat ok
+2026-09-15 20:21 | A-1012  | delivered
+2026-09-16 03:01 | SYSTEM  | truck TR-02 GPS ping
+2026-09-16 06:19 | A-1095  | picked up from warehouse
+2026-09-16 06:49 | A-1047  | picked up from warehouse
+2026-09-16 08:05 | A-1031  | arrived at Hub South
+2026-09-16 09:16 | A-1031  | left hub
+2026-09-16 09:25 | A-1007  | out for delivery
+2026-09-16 09:31 | A-1095  | arrived at Hub South
+2026-09-16 14:20 | A-1007  | arrived at Hub South
+2026-09-16 15:01 | A-1007  | left hub
+2026-09-16 15:24 | A-1007  | delivered
+2026-09-16 17:15 | A-1072  | picked up from warehouse
+2026-09-16 17:39 | SYSTEM  | heartbeat ok
+2026-09-16 18:24 | A-1031  | scanned at sorting center
+2026-09-16 19:35 | A-1007  | scanned at sorting center
+2026-09-16 20:17 | SYSTEM  | scanner firmware check ok
+2026-09-16 21:01 | A-1095  | scanned at sorting center
+2026-09-16 21:36 | A-1031  | picked up from warehouse
+2026-09-17 08:05 | A-1047  | arrived at Hub South
+2026-09-17 09:31 | A-1072  | scanned at sorting center
+2026-09-17 11:34 | A-1006  | picked up from warehouse
+2026-09-17 12:33 | A-1095  | delivered
+2026-09-17 13:00 | A-1047  | left hub
+2026-09-17 14:45 | A-1072  | arrived at Hub South
+2026-09-17 14:57 | A-1095  | left hub
+2026-09-17 15:24 | A-1047  | scanned at sorting center
+2026-09-17 16:24 | A-1031  | out for delivery
+2026-09-17 17:19 | A-1095  | out for delivery
+2026-09-17 21:53 | SYSTEM  | heartbeat ok
+2026-09-18 02:24 | SYSTEM  | truck TR-17 GPS ping
+2026-09-18 04:53 | SYSTEM  | route optimizer run finished
+2026-09-18 10:30 | A-1006  | scanned at sorting center
+2026-09-18 15:42 | A-1038  | picked up from warehouse
+2026-09-18 16:25 | A-1042  | released from customs
+2026-09-18 17:32 | SYSTEM  | heartbeat ok
+2026-09-18 17:39 | A-1047  | out for delivery
+2026-09-18 20:29 | A-1031  | delivered
+2026-09-18 20:56 | A-1006  | arrived at Hub South
+2026-09-19 00:07 | SYSTEM  | heartbeat ok
+2026-09-19 01:08 | SYSTEM  | truck TR-22 GPS ping
+2026-09-19 01:40 | SYSTEM  | truck TR-06 GPS ping
+2026-09-19 07:55 | A-1042  | out for delivery to 14 Old Street
+2026-09-19 08:48 | A-1006  | left hub
+2026-09-19 09:01 | SYSTEM  | truck TR-21 GPS ping
+2026-09-19 10:37 | A-1047  | delivered
+2026-09-19 12:19 | A-1038  | scanned at sorting center
+2026-09-19 14:36 | A-1038  | arrived at Hub South
+2026-09-19 15:31 | A-1042  | delivery failed: recipient not known at this address
+2026-09-19 19:12 | SYSTEM  | scanner firmware check ok
+2026-09-19 20:33 | A-1006  | out for delivery
+2026-09-20 01:26 | SYSTEM  | scanner firmware check ok
+2026-09-20 02:44 | SYSTEM  | truck TR-10 GPS ping
+2026-09-20 06:34 | A-1038  | delivered
+2026-09-20 06:38 | A-1038  | out for delivery
+2026-09-20 09:23 | SYSTEM  | scanner firmware check ok
+2026-09-20 10:12 | A-1042  | returned to Hub North. Next delivery attempt planned for 2026-09-22
+2026-09-20 11:00 | SYSTEM  | heartbeat ok
+2026-09-20 11:33 | A-1006  | delivered
+2026-09-20 12:26 | A-1038  | left hub

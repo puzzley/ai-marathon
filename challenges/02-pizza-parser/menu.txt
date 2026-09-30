@@ -1,0 +1,8 @@
+LUIGI'S PIZZA - MENU
+margherita : tomato, mozzarella, basil
+pepperoni  : tomato, mozzarella, pepperoni
+veggie     : tomato, mozzarella, peppers, onion, mushrooms
+hawaiian   : tomato, mozzarella, ham, pineapple
+
+Sizes  : small, medium, large   (default size: medium)
+Extras : cheese, olives, jalapenos, mushrooms

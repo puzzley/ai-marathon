@@ -1,0 +1,102 @@
+[
+  {
+    "id": "r01",
+    "name": "Mango Sorbet",
+    "description": "Frozen blended mango with a squeeze of lime. Refreshing and fruity dessert."
+  },
+  {
+    "id": "r02",
+    "name": "Chocolate Ice Cream",
+    "description": "Rich churned dessert made with cocoa and cream, served frozen."
+  },
+  {
+    "id": "r03",
+    "name": "Frozen Yogurt Bark",
+    "description": "Yogurt spread on a tray with berries and honey, then frozen and broken into pieces."
+  },
+  {
+    "id": "r04",
+    "name": "Chicken Noodle Soup",
+    "description": "Slow-simmered broth with chicken, carrots, celery and egg noodles. Comforting and gentle on the stomach."
+  },
+  {
+    "id": "r05",
+    "name": "Ginger Lemon Soup",
+    "description": "Clear broth with fresh ginger, garlic and lemon. Soothing when you feel unwell."
+  },
+  {
+    "id": "r06",
+    "name": "Banana Oat Muffins",
+    "description": "Soft muffins made with oats and ripe bananas. Bake on Sunday, grab one on the way out."
+  },
+  {
+    "id": "r07",
+    "name": "Breakfast Burrito",
+    "description": "Tortilla wrapped around scrambled eggs, beans and cheese. Easy to hold in one hand."
+  },
+  {
+    "id": "r08",
+    "name": "Seared Salmon with Lemon Butter",
+    "description": "Crispy-skinned salmon fillet with a silky lemon butter sauce. Restaurant-style plating."
+  },
+  {
+    "id": "r09",
+    "name": "Mushroom Risotto",
+    "description": "Creamy arborio rice slowly stirred with wild mushrooms, parmesan and white wine."
+  },
+  {
+    "id": "r10",
+    "name": "Red Lentil Curry",
+    "description": "Red lentils simmered with coconut milk, tomato and spices. Plant-based and filling."
+  },
+  {
+    "id": "r11",
+    "name": "Chickpea Salad",
+    "description": "Chickpeas, cucumber, tomato, parsley and lemon dressing. Plant-based and high in fibre."
+  },
+  {
+    "id": "r12",
+    "name": "Tofu Stir-Fry",
+    "description": "Crispy tofu cubes with broccoli and peppers in soy-ginger sauce. Plant-based."
+  },
+  {
+    "id": "r13",
+    "name": "Beef Lasagna",
+    "description": "Layers of pasta, beef ragù and béchamel baked until golden."
+  },
+  {
+    "id": "r14",
+    "name": "Margherita Pizza",
+    "description": "Thin crust with tomato, mozzarella and basil, baked in a very hot oven."
+  },
+  {
+    "id": "r15",
+    "name": "Caesar Salad",
+    "description": "Romaine lettuce, croutons, parmesan and creamy anchovy dressing."
+  },
+  {
+    "id": "r16",
+    "name": "Pancakes with Maple Syrup",
+    "description": "Fluffy stacked pancakes served with butter and maple syrup. A lazy weekend favourite."
+  },
+  {
+    "id": "r17",
+    "name": "Grilled Cheese Sandwich",
+    "description": "Toasted bread with melted cheddar. Ready in five minutes."
+  },
+  {
+    "id": "r18",
+    "name": "Tomato Soup",
+    "description": "Smooth roasted tomato soup with basil and a swirl of cream."
+  },
+  {
+    "id": "r19",
+    "name": "Black Bean Tacos",
+    "description": "Corn tortillas filled with spiced black beans, salsa and avocado. Plant-based."
+  },
+  {
+    "id": "r20",
+    "name": "Lamb Tagine",
+    "description": "Slow-cooked lamb with apricots, almonds and warm spices, served with couscous."
+  }
+]

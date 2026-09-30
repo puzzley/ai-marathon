@@ -1,0 +1,51 @@
+{
+  "aurora-14": {
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "weight_kg": 1.35,
+    "battery_h": 12,
+    "price_eur": 1399,
+    "linux_supported": true,
+    "meets_all": true,
+    "fails": []
+  },
+  "breeze-air-13": {
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "weight_kg": 1.1,
+    "battery_h": 14,
+    "price_eur": 1099,
+    "linux_supported": true,
+    "meets_all": false,
+    "fails": [
+      "RAM"
+    ]
+  },
+  "titan-pro-16": {
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "weight_kg": 2.1,
+    "battery_h": 8,
+    "price_eur": 1899,
+    "linux_supported": true,
+    "meets_all": false,
+    "fails": [
+      "weight",
+      "battery",
+      "price"
+    ]
+  },
+  "nova-x14": {
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "weight_kg": 1.4,
+    "battery_h": 11,
+    "price_eur": 1449,
+    "linux_supported": false,
+    "meets_all": false,
+    "fails": [
+      "Linux"
+    ]
+  },
+  "winner": "aurora-14"
+}
