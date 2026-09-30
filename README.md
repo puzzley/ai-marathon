@@ -54,23 +54,76 @@ Each challenge folder has a `README.md` (the instructions) and its data files.
 
 ---
 
-## Setup (15 minutes, do this once)
+## Setup
 
-### 1. Your API key
-The organizers give you an **OpenRouter** key. OpenRouter is one API for many AI models from many providers. You can also use any other OpenAI-compatible API, for example a local model with Ollama.
-Put the key in an environment variable. **Never** put it in your code or in Git.
+Clone the repository and run one script. No Docker. The script does not install system packages and does not change global PHP or Node settings.
+
+### Required software
+
+Install these yourself (any current version):
+
+- Git
+- PHP 8 or newer, with the `curl`, `json`, `mbstring`, and `openssl` extensions
+- Composer
+- Node.js
+- npm
+
+On Windows, install the same tools and run the commands from **Git Bash** or **WSL**.
+
+### Run setup
 
 ```bash
-export OPENROUTER_API_KEY="sk-or-..."
-export MODEL="paste-a-model-id-here"
+git clone https://github.com/puzzley/ai-marathon.git
+cd ai-marathon
+./setup.sh
 ```
 
-### 2. Pick a model
-Open **openrouter.ai/models** and copy a model ID (it looks like `provider/model-name`).
-- A **small, cheap model** is enough for most challenges.
-- Some challenges need special features: **structured outputs** (02), **tools** (09) or **reasoning** (03). You can filter by these features on the models page.
+`./setup.sh` checks the commands above, prints their versions, runs `composer install` when `composer.json` exists, runs `npm install` when `package.json` exists, and creates `.env` from `.env.example` when `.env` is absent. Run it again any time. An existing `.env` is never overwritten.
 
-### 3. Your first call
+The same steps are available as Make targets: `make setup`, `make install`, and `make health`.
+
+### Configure OPENROUTER_API_KEY
+
+OpenRouter is one API for many models. You can also point `OPENROUTER_BASE_URL` at another OpenAI-compatible API, such as a local Ollama server.
+
+Edit `.env` (this file stays on your machine):
+
+- `OPENROUTER_API_KEY` — the key from the organizers
+- `AI_MODEL` — a model id from [openrouter.ai/models](https://openrouter.ai/models), shaped like `provider/model-name`
+- `OPENROUTER_BASE_URL` — defaults to `https://openrouter.ai/api/v1`
+
+A small, cheap model is enough for most challenges. Some challenges need **structured outputs** (02), **tools** (09), or **reasoning** (03). Filter for those on the models page.
+
+### Health check
+
+```bash
+./health-check.php
+```
+
+You should see `PASS` on each line and `All checks passed.` The process exits `0` when PHP, the required extensions, `.env`, the three variables, and a basic HTTP request to `OPENROUTER_BASE_URL` are all fine. Any HTTP status counts as a working connection. DNS failures, timeouts, and refused connections do not. Any `FAIL` line exits non-zero.
+
+The samples below read `OPENROUTER_API_KEY` and `MODEL` from the shell. After `.env` is filled in:
+
+```bash
+set -a
+source .env
+set +a
+export MODEL="$AI_MODEL"
+```
+
+### Troubleshooting
+
+- **`php`, `composer`, `node`, `npm`, or `git` not found.** Install that program and open a new terminal. `./setup.sh` will not install it.
+- **Missing PHP extension (`curl`, `json`, `mbstring`, `openssl`).** Install the extension with your OS package manager, then run `./setup.sh` again. The script does not edit `php.ini`.
+- **`.env` missing.** Run `./setup.sh` from the repository root. If `.env` already exists, the script leaves it alone.
+- **Health check says a variable is empty.** Set it in `.env`. The example file keeps secrets blank on purpose.
+- **HTTP check fails.** Check `OPENROUTER_BASE_URL` for a typo, then check VPN, DNS, or firewall access to that host.
+- **`composer install` or `npm install` did nothing.** This pack has no root `composer.json` or `package.json` until you add one. A missing manifest is skipped. If a manifest is present, fix the error it prints.
+- **OpenRouter error 402.** The key hit its spending limit. Tell the organizers.
+- **`Permission denied` on `./setup.sh`.** Run `chmod +x setup.sh health-check.php` from the repository root.
+
+### Your first call
+
 Choose your language. If you see an answer and a `usage` object, you are ready.
 
 **curl**
@@ -140,6 +193,6 @@ print_r($data['usage']); // tokens and cost
 
 ## Safety rules
 
-- 🔑 Keys stay in environment variables. Never commit them.
+- 🔑 Keys stay in `.env` or in environment variables. Never commit them.
 - 🚫 **No real customer or company data** in any challenge. All data in this pack is invented.
 - 💰 Your key has a spending limit. If you get error **402**, tell the organizers.

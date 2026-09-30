@@ -1,0 +1,8 @@
+# Local secrets
+.env
+.env.local
+.env.*.local
+
+# Installed dependencies
+/vendor/
+/node_modules/
